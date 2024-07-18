@@ -109,7 +109,8 @@ const applyFilters = (state) => {
     const findGenre = book?.book["genre"]
       .toLowerCase()
       .includes(state.selectedGenre.toLowerCase());
-    return findTitle && findGenre;
+    const findBook = state.bookList.find((el) => el?.book["ISBN"] === book?.book["ISBN"])
+    return findTitle && findGenre && !findBook;
   });
 };
 
