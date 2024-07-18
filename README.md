@@ -32,6 +32,10 @@ npm
 
 ```
 
+### link deploy
+
+https://gleeful-genie-e25021.netlify.app
+
 
 
 
