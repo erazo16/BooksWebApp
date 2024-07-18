@@ -1,0 +1,40 @@
+.card{
+    height: auto;
+    padding: 0.5rem ;
+}
+
+
+
+.card h3{
+    color: #1A5276;
+    font-size: 18px;
+}
+
+.card p{
+    font-size: 14px;
+}
+
+.containerImage{
+    height: 80%;
+    width: 80%;
+}
+
+.nameAuthor{
+    color: #99A3A4;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.icon{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #1A5276;
+    cursor: pointer;
+}
+
+.iconDelete{
+    font-size: 2rem;
+    margin-top: 1rem;
+    color:  #E74C3C;
+    cursor: pointer;
+}

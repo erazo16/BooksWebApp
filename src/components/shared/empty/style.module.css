@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.container img{
+    margin: 0 auto;
+    width: 15%;
+}
+
+.container span{
+    font-weight: 500;
+    color: #99A3A4;
+    margin-bottom: 2rem;
+}
+
+.button{
+    background-color: #1A5276;
+    color: white;
+    width: 20%;
+    margin: 0 auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background-color: white;
+    color: #1A5276;
+    border: 1px solid #1A5276;
+}

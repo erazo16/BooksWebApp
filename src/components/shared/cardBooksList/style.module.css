@@ -1,0 +1,32 @@
+.cardList{
+    height: auto;
+    padding: 0.5rem ;
+   /* background-color: #f7f5ed; */
+    display: flex;
+    gap: 1.5rem;
+    border-radius: 10px;
+}
+
+.containerImage{
+    height: 100%;
+    width: 30%;
+}
+
+.containerImage img{
+    height: 10rem;
+    background-size: contain;
+}
+
+
+.containerInfo{
+    width: 70%;
+}
+
+.containerInfo small{
+    color: #99A3A4;
+    font-weight: 600;
+}
+
+.containerCardBookList{
+    margin: 3rem 0;
+}
